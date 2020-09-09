@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/ground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/ground"/>
+    <TextView
+        android:id="@+id/renshi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="认识字母"
+        android:textSize="35dp"
+        android:layout_toRightOf="@id/xuexi"
+        android:layout_marginLeft="63dp"
+        android:layout_marginTop="28dp"
+        android:textColor="#422801"/>
+    <Button
+        android:id="@+id/autoplay"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_toRightOf="@id/renshi"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/auto_1"
+        android:onClick="click1"/>
+    <TextView
+        android:id="@+id/autoplay1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/renshi"
+        android:layout_below="@id/autoplay"
+        android:layout_marginLeft="10dp"
+        android:text="自动播放/暂停"/>
+    <ImageView
+        android:id="@+id/xuexi"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+    />
+    <Button
+        android:id="@+id/zuo"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_below="@id/xuexi"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/zuo"/>
+    <Button
+        android:id="@+id/you"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_below="@id/xuexi"
+        android:layout_marginTop="120dp"
+        android:layout_toRightOf="@id/zimu1"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/you"/>
+    <ImageView
+        android:id="@+id/zimu1"
+        android:layout_below="@id/xuexi"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_width="250dp"
+        android:layout_height="250dp" />
+    <Button
+        android:id="@+id/ch1"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/zimu1"
+        android:layout_marginTop="75dp"
+        android:layout_marginLeft="35dp"
+        android:background="@drawable/ch"
+        />
+    <Button
+        android:id="@+id/en"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/zimu1"
+        android:layout_marginTop="75dp"
+        android:layout_toRightOf="@id/ch1"
+        android:layout_marginLeft="40dp"
+        android:background="@drawable/en"/>
+    <Button
+        android:id="@+id/plus"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/ch1"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/plus"
+        />
+    <TextView
+        android:id="@+id/text13"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="     点击更换背景"
+        android:textColor="#f4ea2a"
+        android:textSize="32dp"
+        android:layout_marginTop="30dp"
+        android:layout_toRightOf="@id/plus"
+        android:layout_below="@id/ch1"
+        />
+
+
+
+
+</RelativeLayout>
